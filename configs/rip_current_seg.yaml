@@ -1,0 +1,6 @@
+names:
+- rip_current
+nc: 1
+path: /home/goosevb/code/urlab/test_model/datasets
+train: images/train
+val: images/val

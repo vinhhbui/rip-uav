@@ -1,0 +1,10 @@
+# rip_current.yaml
+path: ./datasets  # Đường dẫn gốc (root) chứa data
+train: images/train  # Thư mục ảnh train (tương đối so với path)
+val: images/val      # Thư mục ảnh val
+
+# Số lượng class
+nc: 1
+
+# Tên class
+names: ['rip_current']

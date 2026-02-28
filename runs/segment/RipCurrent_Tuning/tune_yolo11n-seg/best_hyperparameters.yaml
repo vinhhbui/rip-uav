@@ -1,0 +1,30 @@
+# 1/30 iterations complete ✅ (3325.56s)
+# Results saved to /home/goosevb/code/urlab/test_model/runs/segment/RipCurrent_Tuning/tune_yolo11n-seg
+# Best fitness=1.4297 observed at iteration 1
+# Best fitness metrics are {'metrics/precision(B)': 0.95394, 'metrics/recall(B)': 0.92868, 'metrics/mAP50(B)': 0.97867, 'metrics/mAP50-95(B)': 0.74927, 'metrics/precision(M)': 0.95527, 'metrics/recall(M)': 0.92594, 'metrics/mAP50(M)': 0.97502, 'metrics/mAP50-95(M)': 0.68043, 'val/box_loss': 0.9326, 'val/seg_loss': 1.59198, 'val/cls_loss': 0.49614, 'val/dfl_loss': 1.11788, 'val/sem_loss': 0.0, 'fitness': 1.4297}
+# Best fitness model is /home/goosevb/code/urlab/test_model/runs/segment/RipCurrent_Tuning/train
+lr0: 0.01
+lrf: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+warmup_epochs: 3.0
+warmup_momentum: 0.8
+box: 7.5
+cls: 0.5
+dfl: 1.5
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+degrees: 0.0
+translate: 0.1
+scale: 0.5
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.5
+bgr: 0.0
+mosaic: 1.0
+mixup: 0.0
+cutmix: 0.0
+copy_paste: 0.0
+close_mosaic: 10
